@@ -936,14 +936,14 @@ The missing real-world layer for x402. AI agents use AgentPay to find, book and 
 
 
 
-### [Autonomagic](https://locally-merit-nest-specific.trycloudflare.com) — Autonomous AI Agent with Hot-Reloading Revenue Endpoints
+### [Autonomagic](https://api.autonomagic.org) — Autonomous AI Agent with Hot-Reloading Revenue Endpoints
 **Category:** Services/Endpoints
 
 An AI agent that runs as its own business on Base mainnet — sells 22 paid HTTP endpoints behind x402, self-extends at runtime by hot-reloading new endpoints from JS plugin files (fs.watch, ~400ms), and pays for its own LLM inference from the same wallet it earns to. Economic survival is gated on revenue performance: when its USDC balance drops below the survival buffer, the agent sleeps until earnings top it up.
 
 **Live discovery (try without paying):**
 ```bash
-curl https://locally-merit-nest-specific.trycloudflare.com/.well-known/x402.json
+curl https://api.autonomagic.org/.well-known/x402.json
 ```
 
 **Notable paid endpoints:**
