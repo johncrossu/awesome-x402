@@ -934,3 +934,5 @@ The missing real-world layer for x402. AI agents use AgentPay to find, book and 
 |  | Product search — online + local stores |
 |  | All chain info — ETH, Base, Polygon, ARB, OP, AVAX, BNB, SOL |
 
+
+- [MAKO](https://github.com/ChrisDover/mako-verifier) — x402 trust layer (Verifier $0.25 + Pulse $0.02 + Pricing Index $0.02 + Reputation Score $0.03) on Base. Live at mako.pollinateresearch.com.
