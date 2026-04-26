@@ -934,3 +934,4 @@ The missing real-world layer for x402. AI agents use AgentPay to find, book and 
 |  | Product search — online + local stores |
 |  | All chain info — ETH, Base, Polygon, ARB, OP, AVAX, BNB, SOL |
 
+- [NEXUS Agent Services](https://nexus-agent-xa12.onrender.com) - Real-time crypto prices, Reddit intelligence, DeFi data, stock prices, sentiment analysis. $0.001-0.05/call USDC on Base.
