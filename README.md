@@ -821,6 +821,7 @@ Live metrics and on-chain analytics for the x402 ecosystem.
 - [Valoria](https://x402.valoria.net) - x402 market intelligence with revenue rankings, service analysis, and pricing data across 90K+ indexed services and $148M+ in tracked on-chain volume.
 - [x402watch](https://x402.printmoneylab.com) - Wash-filtered intelligence layer for x402. 36k+ services indexed across Base, Solana, Polygon, and Arbitrum, AI-classified into 33 categories with 8-label buyer detection (organic_user, suspected_wash, self_test, developer, ai_agent, analytics_bot, exchange_user, verifier). 24h trends, anonymized case studies, daily CC0 datasets, x402-native paid API, and MCP server.
 - [CoinGecko x402 Category](https://coingecko.com/en/categories/x402) - Token tracking and market data featuring $180M+ tracked market cap, price charts, trading volumes, and ecosystem token listings.
+- [Demand Intel](https://intel.agent402.app) - Demand-side analytics + cross-rail supply intelligence for the x402 ecosystem. Cross-source demand signal aggregation across 32+ community, builder, content, financial, and jobs sources, weighted by family-count agreement and filtered by query-intent classification. Builder Intel deduplicates builders across CDP Bazaar, Agentic Market, and MPP via `provider_key`. `unified_supply` SQL view spans facilitators. Pulse dashboard with KPI rail, Signal Pipeline visualizer, and AI Executive Summary. Free partner preview, no payment required during preview phase.
 
 ### Growth Metrics
 
