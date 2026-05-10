@@ -807,6 +807,8 @@ Projects building with or extending x402.
 - [Satoshi API](https://bitcoinsapi.com) - Bitcoin fee market, next-block mining, and transaction intelligence API for agents and apps. x402 pay-per-call endpoints on Base. [Docs](https://bitcoinsapi.com/docs) | [Discovery](https://bitcoinsapi.com/.well-known/x402)
 - [Agent402 Marketplace](https://agent402.app) - Multi-chain agent marketplace + identity layer. 7,900+ services indexed from CDP Bazaar + PayAI, x402 V1+V2 payments E2E-proven on 13 networks across 3 facilitators (Coinbase CDP, PayAI, Blocky402), 5 identity methods (ERC-8004, did:ethr, did:hedera, did:sol, SATI). Agent402 Mode chat overlay searches, executes, and pays in one flow. MCP, A2A, and OASF discovery endpoints per agent. ([GitHub](https://github.com/EnvisionBlockchain/multi-chain-agent-identity))
 
+- [Secant Agent Research Pack](https://agentic.secantoutreach.com/agent-research) - MCP-first paid web research for autonomous agents. Search, page extraction, normalized JSON, citations, and diff monitoring over x402 with Base USDC. Web research endpoints are $0.001-$0.012 per call; Codex audit is a separate $0.25 endpoint. ([Manifest](https://agentic.secantoutreach.com/.well-known/x402.json) | [OpenAPI](https://agentic.secantoutreach.com/openapi.yaml) | [MCP wrapper](https://github.com/jnilrac/secant-agent-research-mcp))
+
 ### Charity & Social Impact
 
 - [x402 Charity](https://allscale-io.github.io/x402charity/) - Open-source middleware for automatic micro-donations via x402. Embed charitable giving into any payment flow — trades, API calls, subscriptions. $0.0001 USDC per event on Base. CLI + web widget. Built by [AllScale Lab](https://allscale.io). ([GitHub](https://github.com/allscale-io/x402charity))
