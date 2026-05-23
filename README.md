@@ -553,6 +553,8 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 
 - [The Stall](https://the-stall.intuitek.ai/mcp) — 209-capability MCP server for financial intelligence and data APIs. Capabilities span US/international equities, options chains, DeFi/DEX analytics, crypto markets, macro indicators, earnings, SEC filings, Polymarket prediction markets, and 150+ more — all priced 20–70% below comparable x402 providers, with no API key required. $0.001–$0.020 USDC per call on Base mainnet. ([MCP Registry](https://registry.modelcontextprotocol.io)) ([Glama](https://glama.ai/mcp/servers))
 
+- [FiatDock](https://fiatdock.com) - Non-custodial MCP marketplace for AI agents: discover and pay for MCP services per call in USDC over x402 on Base. 3 tools — search_services, get_service, call_service (call_service auto-handles 402 → sign → retry). Each paid call settles directly buyer-wallet → seller-wallet; the 1% platform fee is an on-chain split (0% for a seller's first 30 days), so FiatDock never holds funds. Sellers list free and keep 99%; Verified sellers pass a KYC + MCP-security scan. Also a non-custodial USDC↔bank on/off-ramp. `npx fiatdock-mcp`. ([MCP](https://fiatdock.com/mcp)) | ([Marketplace](https://fiatdock.com/mcp-marketplace.html)) | ([Source](https://github.com/fiatdock/fiatdock))
+
 ### Agent Frameworks
 
 - [ATXP](https://github.com/atxp-dev/atxp) - Agent identity and funding platform. One command — `npx atxp agent register` — gives an agent a USDC wallet on Base, an `@atxp.email` inbox, a phone number, and 100+ paid tools (web search, image/video generation, LLM gateway). x402-compatible; agents can pay x402 endpoints directly from their ATXP balance. $5 free credit, no KYC. ([Docs](https://docs.atxp.ai))
