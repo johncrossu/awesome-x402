@@ -442,6 +442,7 @@ Enable AI agents to make autonomous payments.
 x402-native GPU inference APIs that let agents pay autonomously for compute.
 
 - [GPU-Bridge](https://gpubridge.xyz) - 30-service GPU inference API with native x402 payments (USDC on Base L2). LLM, image generation, embeddings, STT, TTS, PDF processing — all in one API. Agents pay per call with no human intervention. /usr/bin/bash.00002/embedding, /usr/bin/bash.001/LLM call. ([Docs](https://docs.gpubridge.xyz)) ([GitHub](https://github.com/fjnunezp75/gpu-bridge))
+- [Clawy AI Gateway](https://clawy.uk) - Pay-per-call LLM inference with native x402 v2 payments (USDC on Base mainnet, Solana opt-in). OpenAI-compatible endpoints for GPT-5.5 ($0.10), Claude Opus 4.8 ($0.15), and a cost-optimized auto tier ($0.04). No API keys, no signup. Coinbase Bazaar-discoverable, listed on x402scan. ([llms.txt](https://clawy.uk/llms.txt)) ([Manifest](https://clawy.uk/.well-known/x402.json))
 
 ### Model Context Protocol (MCP)
 
